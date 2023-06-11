@@ -190,13 +190,14 @@ public class HashMapEMS {
     // to run the program
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        String choice;
+        String command;
+        boolean quit = false;
 
-        do {
+        while(quit == false) {
             display();
-            choice = input.nextLine();
+            command = input.nextLine();
 
-            switch (choice) {
+            switch (command) {
                 case "1" -> {
                     Scanner read = new Scanner(System.in);
                     System.out.print("\nId: ");
@@ -234,13 +235,6 @@ public class HashMapEMS {
                     } else {
                         System.out.print("\nEmployee Id: ");
                         String employeeToEdit = edit.nextLine();
-
-//                        boolean idFound = false;
-//
-//                        if (employeesHashMap.containsKey(employeeToEdit)) {
-//                            idFound = true;
-//                            break;
-//                        }
                         if(!employeesHashMap.containsKey(employeeToEdit)){
                             System.out.println("No employee with that id exist");
                         } else {
@@ -274,7 +268,11 @@ public class HashMapEMS {
                         searchEmp(empID);
                     }
                 }
+                case "6" -> {
+                    System.out.println("\nThank you for using Employee Central. Hope to see you again ☺️");
+                    quit = true;
+                }
             }
-        } while (!choice.equals("6")) ;
+        }
     }
 }
