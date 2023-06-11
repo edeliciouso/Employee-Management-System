@@ -14,6 +14,7 @@ public class HashMapEMS {
         private String gender;
         private String email;
 
+        // constructors
         public Employees(String id, String name, String phone, String address, String department, String position, String gender, String email) {
             this.id = id;
             this.name = name;
@@ -25,6 +26,7 @@ public class HashMapEMS {
             this.email = email;
         }
 
+        // setters and getters
         public String getId() {
             return id;
         }
@@ -90,6 +92,7 @@ public class HashMapEMS {
         }
     }
 
+    // display method
     public static void display() {
         System.out.println("\n=======================================");
         System.out.println("  Employee Central Management System");
@@ -106,6 +109,7 @@ public class HashMapEMS {
         System.out.print("Enter the corresponding number for your command: ");
     }
 
+    // add employee
     public static void addEmp(String id, String name, String phone, String address, String department, String position, String gender, String email){
         Employees newEmp = new Employees(id, name, phone, address, department, position, gender, email);
         employeesHashMap.put(id, newEmp);
@@ -113,8 +117,9 @@ public class HashMapEMS {
         System.out.println("\nThe employee has been added successfully.");
     }
 
+    // remove employee
     public static void removeEmp(String id){
-        if(employeesHashMap.containsKey(id)){
+        if(employeesHashMap.containsKey(id)){ // if the hashmap has the id key
             employeesHashMap.remove(id);
             System.out.println("\nEmployee has been removed successfully!");
         } else{
@@ -122,6 +127,7 @@ public class HashMapEMS {
         }
     }
 
+    // edit employee
     public static void editEmp(String id, String newName, String newPhone, String newAddress, String newDepartment, String newPosition, String newGender, String newEmail){
         if(employeesHashMap.containsKey(id)){
             Employees nowEmp = employeesHashMap.get(id);
@@ -139,15 +145,16 @@ public class HashMapEMS {
         }
     }
 
+    // view employee
     public static void viewEmp(){
-        if(employeesHashMap.isEmpty()){
+        if(employeesHashMap.isEmpty()){ // if hashmap empty
             System.out.println("\nThere aren't any employees yet!");
         } else{
-            int n = 1;
+            int n = 1; // to put numbers
             System.out.println("\n********************************");
             System.out.println("        Employee Details");
             System.out.println("********************************");
-            for (Employees employee : employeesHashMap.values()) {
+            for (Employees employee : employeesHashMap.values()) { // just get the values from the hashmap
                 System.out.println(n + ".  Id: " + employee.getId());
                 System.out.println("\tName: " + employee.getName());
                 System.out.println("\tPhone: " + employee.getPhone());
@@ -162,9 +169,10 @@ public class HashMapEMS {
         }
     }
 
+    // search employee based on id
     public static void searchEmp(String id){
         Employees employee = employeesHashMap.get(id);
-        if(employeesHashMap.containsKey(id)){
+        if(employeesHashMap.containsKey(id)){ // if hashmap has the id, print out the contents of the employee class
             System.out.println("\n-Employee Details-");
             System.out.println("ID: " + employee.getId());
             System.out.println("Name: " + employee.getName());
@@ -179,6 +187,7 @@ public class HashMapEMS {
         }
     }
 
+    // to run the program
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         String choice;
