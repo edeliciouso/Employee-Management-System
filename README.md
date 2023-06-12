@@ -1,4 +1,4 @@
-# **Employee Management System**
+# **Employee Central**
 
 #### Group Members:
 + Edelyne Keisha - 2602169850 - L2BC
@@ -13,7 +13,9 @@
 + HashMap
 + Queue
 
-#### Context &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;An application that helps to keep track of employees' data
+#### Context:
+
+An employee management system that helps to keep track of employees' data
 
 #### Program Features
 + Add Employee
