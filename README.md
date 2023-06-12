@@ -16,10 +16,10 @@
 
 #### Program Features
 + Add Employee - Add Id, Name, Phone Number, Address, Department, Position, Gender Email
-+ Remove Employee - Remove by Id
++ Remove Employee - Remove by employee Id
 + Edit Employee - Other than Id, all data is editable
 + View Employee - List all employees' details
-+ Search Employee - Search by Id
++ Search Employee - Search by employee Id
 + Exit Program
 
 
