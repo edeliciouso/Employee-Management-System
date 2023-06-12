@@ -13,3 +13,14 @@
 + HashMap
 + Queue
 
+#### Context &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;An application that helps to keep track of employees' data
+
+#### Program Features
++ Add Employee
++ Remove Employee
++ Edit Employee
++ View Employee
++ Search Employee
++ Exit Program
+
+
