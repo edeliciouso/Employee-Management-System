@@ -15,11 +15,11 @@
 + Queue
 
 #### Program Features
-+ Add Employee
-+ Remove Employee
-+ Edit Employee
-+ View Employee
-+ Search Employee
++ Add Employee - Add Id, Name, Phone Number, Address, Department, Position, Gender Email
++ Remove Employee - Remove by Id
++ Edit Employee - Other than Id, all data is editable
++ View Employee - List all employees' details
++ Search Employee - Search by Id
 + Exit Program
 
 
