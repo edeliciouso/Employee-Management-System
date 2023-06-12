@@ -1,9 +1,15 @@
 # **Employee Management System**
 
 #### Group Members:
-+ Edelyne Keisha - 2602169850
-+ Felise Amore Pandiora - 2602174453
++ Edelyne Keisha - 2602169850 - L2BC
++ Felise Amore Pandiora - 2602174453 - L2BC
 
 #### Demo Link &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;https://youtu.be/_tHt52GUouU
 #### PPT Link &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;
+
+#### Data Structures Used:
++ ArrayList
++ TreeMap
++ HashMap
++ Queue
 
