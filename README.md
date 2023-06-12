@@ -6,14 +6,13 @@
 
 #### Demo Link &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;https://youtu.be/_tHt52GUouU
 #### PPT Link &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;: &nbsp;https://shorturl.at/nuKX1
+#### Context &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;: &nbsp;An employee management system that helps to keep track of employees' data
 
 #### Data Structures Used:
 + ArrayList
 + TreeMap
 + HashMap
 + Queue
-
-#### Context &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;An employee management system that helps to keep track of employees' data
 
 #### Program Features
 + Add Employee
