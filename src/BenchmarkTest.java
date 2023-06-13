@@ -72,7 +72,7 @@ public class BenchmarkTest {
 
     // Method to Measure the Time Taken
     static void measureTime(long startTime, long endTime) {
-        double timeUsed = (endTime - startTime) / 1_000.0;
+        double timeUsed = (endTime - startTime) / 1_000_000.0;
         System.out.println(timeUsed + " milisecond(s)");
     }
 
